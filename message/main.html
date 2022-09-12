@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <section id="sidebar">
+      <a href="#" class="brand"><i class='bx bxs-smile icon'></i> SupperFood</a>
+      <ul class="side-menu">
+        <li><a href="#" class="active"><i class='bx bxs-dashboard icon' ></i> Dashboard</a></li>
+        <li class="divider" data-text="main">Main</li>
+        <li>
+          <a href="#"><i class='bx bxs-inbox icon' ></i> Elements <i class='bx bx-chevron-right icon-right' ></i></a>
+          <ul class="side-dropdown">
+            <li><a href="#">Alert</a></li>
+            <li><a href="#">Badges</a></li>
+            <li><a href="#">Breadcrumbs</a></li>
+            <li><a href="#">Button</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class='bx bxs-chart icon' ></i> Charts</a></li>
+        <li><a href="#"><i class='bx bxs-widget icon' ></i> Widgets</a></li>
+        <li class="divider" data-text="table and forms">Table and forms</li>
+        <li><a href="#"><i class='bx bx-table icon' ></i> Tables</a></li>
+        <li>
+          <a href="#"><i class='bx bxs-notepad icon' ></i> Forms <i class='bx bx-chevron-right icon-right' ></i></a>
+          <ul class="side-dropdown">
+            <li><a href="#">Basic</a></li>
+            <li><a href="#">Select</a></li>
+            <li><a href="#">Checkbox</a></li>
+            <li><a href="#">Radio</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+    </section>
+    <!-- SIDEBAR -->
+  
+    <!-- NAVBAR -->
+    <section id="content">
+      <!-- NAVBAR -->
+      <nav class="nav">
+        <i class='bx bx-menu toggle-sidebar' ></i>
+        <form action="#">
+          <div class="form-group">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search icon' ></i>
+          </div>
+        </form>
+        <a href="#" class="nav-link">
+          <i class='bx bxs-bell icon' ></i>
+          <span class="badge">5</span>
+        </a>
+        <a href="#" class="nav-link">
+          <i class='bx bxs-message-square-dots icon' ></i>
+          <span class="badge">8</span>
+        </a>
+        <span class="divider"></span>
+        <div class="profile">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+          <ul class="profile-link">
+            <li><a href="#"><i class='bx bxs-user-circle icon' ></i> Profile</a></li>
+            <li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
+            <li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- NAVBAR -->
+  
+      <!-- MAIN -->
+      <main>
+        <div class="link">
+          <h1 class="title">Dashboard</h1>
+        <ul class="breadcrumbs">
+          <li><a href="#">Home</a></li>
+          <li class="divider">/</li>
+          <li><a href="#" class="active">Dashboard</a></li>
+        </ul>
+        </div>
+        <div class="container">
+          <div class="leftSide">
+            <div class="header">
+              <div class="userimg">
+                <img
+                  src="https://tackexinh.com/wp-content/uploads/2021/01/hinh-anh-dep-chat-luong-001.jpg"
+                  alt="#"
+                  class="cover"
+                />
+              </div>
+              <ul class="nav-icons">
+                <li><ion-icon name="scan-circle-outline"></ion-icon></li>
+                <li><ion-icon name="chatbox-outline"></ion-icon></li>
+                <li><ion-icon name="ellipsis-vertical-outline"></ion-icon></li>
+              </ul>
+            </div>
+            <div class="search-chat">
+              <div>
+                <input type="text" placeholder="Search....." />
+                <ion-icon name="search-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="chatlist">
+              <div class="block active">
+                <div class="imgbx">
+                  <img
+                    src="https://hinhnen123.com/wp-content/uploads/2021/06/anh-avatar-dep-nhat-6.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Le Viet Hoan</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>design by Le Viet Hoan design by Le Viet Hoan design by Le Viet Hoan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="block unread">
+                <div class="imgbx">
+                  <img
+                    src="https://genk.mediacdn.vn/k:2016/1-140808122043-01-selfie-monkey-0808-exlarge-169-1454603234252-crop-1454603249987-crop-1454603268876-1454752124621/8-su-thiet-it-ai-biet-ve-loai-khi-sinh-vat-nhi-nho-nhat-hanh-tinh.jpeg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Ha Minh Quang</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>tui la con khi, nhin tui co dang yeu khong?</p>
+                    <b>1</b>
+                  </div>
+                </div>
+              </div>
+              <div class="block unread">
+                <div class="imgbx">
+                  <img
+                    src="https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-anh-cute-de-thuong.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Trieu Khai Nhat</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <b>1</b>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://pdp.edu.vn/wp-content/uploads/2021/06/hinh-anh-chat-ngau-dep-nhat.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Quang sadboiziii hacker lỏd</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Đưa acc hoặc mất nick?</p>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://atpweb.vn/blog/wp-content/uploads/2019/08/10-trang-web-c%C3%B3-ngu%E1%BB%93n-h%C3%ACnh-%E1%BA%A3nh-mi%E1%BB%85n-ph%C3%AD-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-3.jpeg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At.</p>
+                  </div>
+                </div>
+              </div><div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://sites.google.com/site/thietkewebtaihanoi/_/rsrc/1480308136221/kien-thuc-web/tim-kiem-hinh-anh-dep-cho-giao-dien-website/T%C3%ACm%20ki%E1%BA%BFm%20h%C3%ACnh%20%E1%BA%A3nh%20%C4%91%E1%BA%B9p%20cho%20giao%20di%E1%BB%87n%20website-1.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Ha Trieu Hai</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSk4YD0MsN-yw-wplasyVIgd9Og-7KWHO8g8JUyiC3q7Nar81mCZYjCIuglgmiaWvqa0&usqp=CAU"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Dinh Mat Moc</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem, ipsum.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://baoquocte.vn/stores/news_dataimages/dieulinh/012020/29/15/nhung-buc-anh-dep-tuyet-voi-ve-tinh-ban.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Do Thanh Dat</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://sp-images.summitpost.org/947006.jpg?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=876696700800816d01e0d1eb31ce7ab0"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Thanh Cong Dat</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://znews-photo.zingcdn.me/w660/Uploaded/kbd_bcvi/2019_11_23/5d828d976f24eb1a752053b5.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Trinh Cong Minh</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="imgbx">
+                  <img
+                    src="https://hinhnen123.com/wp-content/uploads/2021/07/Bo-suu-tap-1001-hinh-anh-mang-dep-an-tuong-nhat-nam-2021.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <div class="details">
+                  <div class="listHead">
+                    <h4>Le Quy Huy</h4>
+                    <p class="time">10:56</p>
+                  </div>
+                  <div class="message-p">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, assumenda?n</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="rightSide">
+            <div class="header">
+              <div class="imgText">
+                <div class="userimg">
+                  <img
+                    src="https://hinhnen123.com/wp-content/uploads/2021/06/anh-avatar-dep-nhat-6.jpg"
+                    alt="#"
+                    class="cover"
+                  />
+                </div>
+                <h4>Le Viet Hoan <br> <span>online</span></h4>
+              </div>
+              <ul class="nav-icons">
+                <li><ion-icon name="search-outline"></ion-icon></li>
+                <li><ion-icon name="ellipsis-vertical-outline"></ion-icon></li>
+              </ul>
+            </div>
+            <div class="chatBox">
+              <div class="message my-message">
+                <p>Hi <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Hello <br> <span>12:15</span></p>
+              </div>
+              <div class="message my-message">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate repudiandae nostrum voluptates labore non excepturi atque nisi cumque fugit ipsam eveniet, alias neque repellendus aspernatur laboriosam possimus aliquam! Magnam? <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat dolorum repellendus nesciunt fuga nobis accusantium ipsa iusto nemo eaque iure. <br> <span>12:15</span></p>
+              </div>
+              <div class="message my-message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, rem? <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat commodi fuga neque. <br> <span>12:15</span></p>
+              </div>
+              <div class="message my-message">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus labore ipsam alias accusantium beatae facilis dolorem, voluptatibus ad ab vel eius expedita! Illo, magnam illum? <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nesciunt eius quis praesentium, quasi aut. Ea magnam provident quae officiis culpa, quaerat dolor quam, minima totam voluptas sapiente, ipsam delectus cum dolorem beatae ab amet! <br> <span>12:15</span></p>
+              </div>
+              <div class="message my-message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eum dolores quis excepturi quas molestiae? <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorum odio molestias dicta blanditiis, assumenda dolore tenetur. Odit excepturi beatae commodi, consequuntur est deserunt assumenda. Minima quas, distinctio fugit odio consequuntur laboriosam illum explicabo. <br> <span>12:15</span></p>
+              </div>
+              <div class="message my-message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea dolores aspernatur! <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem ipsum dolor sit amet. <br> <span>12:15</span></p>
+              </div>
+              <div class="message my-message">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero! <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br> <span>12:15</span></p>
+              </div>
+              <div class="message my-message">
+                <p>Lorem ipsum dolor sit. <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, rem. <br> <span>12:15</span></p>
+              </div><div class="message my-message">
+                <p>Lorem ipsum dolor sit amet consectetur. <br> <span>12:15</span></p>
+              </div>
+              <div class="message frnd-message">
+                <p>Lorem, ipsum. <br> <span>12:15</span></p>
+              </div>
+            </div>
+            <div class="chatbox-input">
+              <ion-icon name="happy-outline"></ion-icon>
+              <ion-icon name="attach-outline"></ion-icon>
+              <input type="text" placeholder="Type a message...">
+              <ion-icon name="mic"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+      </main>
+      <!-- MAIN -->
+    </section>
+    <!-- NAVBAR -->
+    <script src="script.js"></script>
+    
+  </body>
+</html>
